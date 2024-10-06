@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(135deg, #fffff0, #8fbc8f); /* Gradient from ivory to grayish green */
+    font-family: 'Arial', sans-serif; /* Ensure a clean font */
+    color: #ffffff; /* Default text color for better contrast */
+}
+
+.container {
+    max-width: 600px; /* Centering the form */
+    margin: 0 auto;   /* Center horizontally */
+    padding: 20px;    /* Added padding for inner spacing */
+    background: rgba(255, 255, 255, 0.9); /* Light background for form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333; /* Darker color for the title */
+}
+
+.form-label {
+    font-weight: 500; /* Slightly bolder labels */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary color */
+    border: none;              /* No border */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.alert {
+    margin-top: 1rem;         /* Spacing for success message */
+}

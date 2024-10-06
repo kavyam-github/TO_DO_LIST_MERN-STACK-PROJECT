@@ -1,0 +1,42 @@
+.about-container {
+    background: linear-gradient(135deg, #6f42c1, #ffc107); /* Gradient from purple to yellow */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Added padding for inner spacing */
+}
+
+.about-title {
+    color: #ffffff; /* White text color for the title for better contrast */
+    font-weight: bold; /* Bold title */
+}
+
+.about-section {
+    margin-bottom: 30px; /* Spacing between sections */
+}
+
+.section-title {
+    color: #343a40; /* Darker text color for section titles */
+    margin-bottom: 10px; /* Space below section titles */
+}
+
+.section-content {
+    color: #495057; /* Slightly lighter dark text */
+    font-size: 1.1rem; /* Slightly larger font size */
+}
+
+.feature-list {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+.feature-list li {
+    background: grey; /* White background for list items for contrast */
+    border-radius: 5px; /* Rounded corners for list items */
+    padding: 10px; /* Padding for list items */
+    margin-bottom: 10px; /* Space between list items */
+   
+}
+
+.feature-list li:disabled {
+    background: grey /* Darker gray on hover */
+}

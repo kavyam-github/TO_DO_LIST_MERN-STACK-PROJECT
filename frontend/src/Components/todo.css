@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(135deg, #ff4b5c, #4caf50); /* Gradient from red to green */
+    font-family: 'Arial', sans-serif;
+    color: black; /* Default text color for better contrast */
+}
+
+.todo-container {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Light background for container */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.header-title {
+    font-weight: bold;
+    color: #333; /* Darker header title color for contrast */
+}
+
+.card {
+    background: #ffffff; /* White card background */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title, .card-text {
+    color: #333; /* Dark gray for card text */
+}
+
+.status-badge {
+    padding: 0.3em 0.6em;
+    border-radius: 4px;
+    color: #fff; /* Text color for badges */
+}
+
+.status-badge.completed {
+    background-color: #4caf50; /* Green */
+}
+
+.status-badge.in-progress {
+    background-color: #ff9800; /* Orange */
+}
+
+.status-badge.pending {
+    background-color: #f44336; /* Red */
+}
+
+.actions button {
+    margin-right: 0.5rem;
+    background-color: #f44336; /* Default button color (red) */
+    color: #fff; /* Text color for buttons */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.actions button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-icon {
+    border-left: none; /* Remove left border */
+    color: #ffffff; /* Icon color */
+}
+
+footer {
+    padding: 10px 0;
+    background: #343a40; /* Dark footer background for contrast */
+    color: #ffffff; /* Footer text color */
+    border-radius: 0 0 8px 8px;
+}
